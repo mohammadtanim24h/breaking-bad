@@ -3,6 +3,11 @@
     height: 650px;
 }
 
+.character img {
+    height: 500px;
+    object-fit: cover;
+}
+
 .details-btn {
     background-color: #1c5e20;
     position: absolute;
@@ -12,6 +17,10 @@
     padding: 10px 20px;
 }
 
+.details-btn:focus {
+    background-color: #154717;
+}
+
 .details-btn:hover {
-    background-color: #144416;
+    background-color: #347737;
 }
