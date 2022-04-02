@@ -1,0 +1,5 @@
+.nav-bar {
+    background-color: #093009;
+    display: flex;
+    justify-content: space-between;
+}
