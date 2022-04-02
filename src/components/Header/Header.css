@@ -1,5 +1,30 @@
 .nav-bar {
-    background-color: #093009;
+    background-color: #0D3E10;
+    height: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+.title-div {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    font-size: 19px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
