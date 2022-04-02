@@ -11,7 +11,7 @@ const Header = () => {
                 <h4 className="title">Breaking Bad</h4>
             </div>
             <div className="links">
-                <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/home">Home</CustomLink>
                 <CustomLink to="/characters">Characters</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
             </div>
