@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from '../../images/br-logo.png';
 import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 

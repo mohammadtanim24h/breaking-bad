@@ -1,0 +1,17 @@
+.character {
+    position: relative;
+    height: 650px;
+}
+
+.details-btn {
+    background-color: #1c5e20;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 10px 20px;
+}
+
+.details-btn:hover {
+    background-color: #144416;
+}
