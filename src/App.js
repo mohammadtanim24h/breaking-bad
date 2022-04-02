@@ -7,6 +7,7 @@ import Characters from "./components/Characters/Characters";
 import About from "./components/About/About";
 import CharacterDetails from "./components/CharacterDetails/CharacterDetails";
 import NotFound from "./components/NotFound/NotFound";
+import { Spinner } from "react-bootstrap";
 
 function App() {
     return (
