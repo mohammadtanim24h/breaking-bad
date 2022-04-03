@@ -9,12 +9,15 @@ const Characters = () => {
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
+        console.log(1);
         fetch("https://breakingbadapi.com/api/characters")
             .then((res) => res.json())
             .then((data) => {
                 setCharacters(data.slice(0, 20))
                 setLoading(false)
+                console.log(2);
             });
+            console.log(3);
     }, []);
 
     return (
